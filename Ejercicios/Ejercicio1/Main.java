@@ -1,4 +1,5 @@
 package Ejercicios.Ejercicio1;
+
 import java.awt.*;
 import java.awt.event.*;
 public class Main extends Frame{
