@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicio8;
+package Ejercicios.EditorTexto;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
