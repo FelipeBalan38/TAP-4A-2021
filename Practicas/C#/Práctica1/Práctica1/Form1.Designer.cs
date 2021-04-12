@@ -28,7 +28,7 @@ namespace Práctica1
         /// el contenido de este método con el editor de código.
         /// </summary>
         private void InitializeComponent()
-        {
+        {//En esta parte se crean todos y cada uno de los componentes con sus respectivas propiedades.
             this.txt_in = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -262,7 +262,7 @@ namespace Práctica1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 353);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button16);//Se añaden todos los componentes a la ventana.
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
@@ -293,24 +293,24 @@ namespace Práctica1
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txt_in;
+        //Se definen cada uno de los parametros que nos serviran para la calculadora.
+        private System.Windows.Forms.TextBox txt_in;//TextBox en el que se ingresan y muestran los datos.
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label3;///Se crean los botones propios a las operaciones y al resultado de estas.
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button6;//Se crean los botones de los numeros del 0-9
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button12;//Se crean los botones propios a las operaciones y al resultado de estas.
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;

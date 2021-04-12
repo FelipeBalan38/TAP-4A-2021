@@ -1,30 +1,30 @@
 package Practicas.Java.Practica1;
-
+//Clase que realiza las operaciones.
 public class Operaciones {
-    public String Operac(int dat1, int dat2, String op) {
-        switch (op) {
-        case "+":
+    public String Operac(int dat1, int dat2, String op) {//Recibe los dos numeros y el operador.
+        switch (op) {//Según el operdor se realiza la operación definida
+        case "+"://Suma
             int suma = dat1 + dat2;
             return suma + "";
 
-        case "-":
+        case "-"://Resta
             int resta = dat1 - dat2;
             return resta + "";
 
-        case "/":
-            if (dat1 > 0 && dat2 > 0) {
-                int divicion = dat1 / dat2;
+        case "/"://División
+            if (dat1 > 0 && dat2 > 0) {//Comprueba que los datos son diferentes a 0.
+                int divicion = dat1 / dat2;//Porque no se puede dividir entre 0.
                 return divicion + "";
             } else {
                 return "Imposible división entre 0";
             }
 
-        case "*":
+        case "*"://Multiplicación.
             int multiplicacion = dat1 * dat2;
             return multiplicacion + "";
 
-        case "^":
-            if (dat2 != 0) {
+        case "^"://Elevar.
+            if (dat2 != 0) {//Ve que a lo que se elavará sea diferente de 0.
                 double elevar = Math.pow(dat1, dat2);
                 return elevar + "";
             }
