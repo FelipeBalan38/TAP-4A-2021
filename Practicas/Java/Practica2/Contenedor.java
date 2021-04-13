@@ -20,30 +20,30 @@ public class Contenedor extends JPanel {
         try {//Según la figura que se seleccione se crea una u otra.
             switch (figur) {
                 case "Circulo":
-                    u.setColor(Color.black);
+                    u.setColor(Color.green);
                     u.fillOval(x, y, w, h);
                     u.drawString("Has clic", x, y);
                     break;
                 case "Cuadrado":
-                   u.setColor(Color.blue);
+                   u.setColor(Color.red);
                    u.fillRect(80, 60, w, h);
                    u.setColor(Color.black);
                    u.fillOval(x, y, (int)(w * 0.30), (int)(h * 0.30));
                     break;
                 case "Rombo":
                     if(this.isClicked){
-                    u.setColor(Color.blue);
+                    u.setColor(Color.gray);
                     u.fillRect(x, y, w, h);
-                    u.setColor(Color.pink);
+                    u.setColor(Color.yellow);
                     u.fillOval(x, y, w, h);
-                    u.setColor(Color.black);
+                    u.setColor(Color.blue);
                     u.fillArc(x, y, w, h, 60, 90);
                     }else{   
-                    u.setColor(Color.blue);
+                    u.setColor(Color.gray);
                     u.fillRect(80,60, w, h);
-                    u.setColor(Color.pink);
+                    u.setColor(Color.yellow);
                     u.fillOval(x, y, w, h);
-                    u.setColor(Color.black);
+                    u.setColor(Color.blue);
                     u.fillArc(x, 10, w, h, 60, 90);
                     }
                     break;
@@ -57,40 +57,40 @@ public class Contenedor extends JPanel {
         paintComponent(g);
     }
 
-    public int getX() {
-        return x;
-    }
-
     public void setX(int x) {
         this.x = x;
+    }
+    
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public void setW(int w) {
+        this.w = w;
+    }
+    
+    public void setH(int h) {
+        this.h = h;
+    }
+
+    public int getX() {
+        return x;
     }
 
     public int getY() {
         return y;
     }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-
-    public Contenedor(LayoutManager layout) {
-        super(layout);
-    }
-
+    
     public int getW() {
         return w;
-    }
-
-    public void setW(int w) {
-        this.w = w;
     }
 
     public int getH() {
         return h;
     }
 
-    public void setH(int h) {
-        this.h = h;
+    public Contenedor(LayoutManager layout) {
+        super(layout);
     }
 
     public String getIsFigura() {
