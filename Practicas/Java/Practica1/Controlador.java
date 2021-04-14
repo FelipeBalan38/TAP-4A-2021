@@ -1,6 +1,6 @@
 package Practicas.Java.Practica1;
 //Clase que realiza las operaciones.
-public class Operaciones {
+public class Controlador{
     public String Operac(int dat1, int dat2, String op) {//Recibe los dos numeros y el operador.
         switch (op) {//Según el operdor se realiza la operación definida
         case "+"://Suma
@@ -34,5 +34,16 @@ public class Operaciones {
         }
 
         return null;
+    }
+    //metodo que prueba si el dato que se ingresa es un número
+    public boolean isNumber(String cadena) {
+        boolean resultado;
+        try {
+            Integer.parseInt(cadena);
+            resultado = true;
+        } catch (NumberFormatException excepcion) {
+            resultado = false;
+        }
+        return resultado;
     }
 }
