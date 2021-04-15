@@ -12,21 +12,36 @@ public class Contenedor extends Canvas{
     private boolean isClicked;
 
     public Contenedor() {
-        x = 30;
-        y = 30;
-        w = 30;
-        h = 30;
+        x = 250;
+        y = 270;
+        w = 300;
+        h = 220;
         isClicked = false;
     }
 
     public void paint(Graphics g) {
-        g.setColor(Color.DARK_GRAY);
-        g.fillRect(x, y, w, h);
-        g.setColor(Color.BLUE);
-        g.fillOval(x+10 ,y+10, (int)(w*0.30), (int)(h*0.30));
-        for(int i=0; i<10;i++){
-            g.fillOval((int)(Math.random()*500+1),(int)(Math.random()*500+1), (int)(w*0.30), (int)(h*0.30));
-        }
+        //Cuadrado
+        g.setColor(Color.RED);
+        g.fillRect(10, 100, 200, 300);
+        g.setColor(Color.gray);
+        g.drawRect(10,100,200,300);
+        //Rombo
+        g.setColor(Color.white);
+        g.drawRect(220, 100, 200, 300);
+        g.setColor(Color.BLACK);
+        g.drawRect(220, 100, 200, 300);
+        //Círculo 1
+        g.setColor(Color.GRAY);
+        g.drawArc(200, 0, 80, 80,0,360);
+        g.setColor(Color.green);
+        g.fillArc(200, 0, 80, 80,0,360);
+        //Objeto arrastrable
+        g.setColor(Color.GRAY);
+        g.drawArc(x, y, 80, 80,0,360);
+        g.setColor(Color.black);
+        g.fillArc(x, y, 80, 80,0,360);
+        //Texto
+        g.drawString("Figura arrastrable\n"+"\na estado original(D)",170,20);
     }
 
     public int getX() {

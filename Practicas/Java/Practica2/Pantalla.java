@@ -1,12 +1,10 @@
-package Ejercicios.Ejercicio6;
+package Practicas.Java.Practica2;
 
 import java.awt.Frame;
 import java.awt.event.*;
 
-import Ejercicios.Ejercicio5.Contenedor;
-
-public class Pantalla extends Frame implements MouseListener, MouseMotionListener, KeyListener {
-
+public class Pantalla extends Frame implements MouseListener, MouseMotionListener, KeyListener{
+    
     /**
      *
      */
@@ -29,12 +27,31 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
         obj_pintable.addKeyListener(this);
         this.addKeyListener(this);
         this.add(obj_pintable);
-        this.setSize(500,500);
+        this.setSize(450,450);
         this.setVisible(true);
     }
 
     public static void main(String args[]) {
         Pantalla p = new Pantalla();
+    }
+    private void collisionChek()
+    {
+        if(obj_pintable.getX() <= 10)
+        {
+            obj_pintable.setX(10);
+        }
+        if(obj_pintable.getX() >= 130)
+        {
+            obj_pintable.setX(130);
+        }
+        if(obj_pintable.getY() <= 100)
+        {
+            obj_pintable.setY(100);
+        }
+        if(obj_pintable.getY() >= 320)
+        {
+            obj_pintable.setY(320);
+        }
     }
 
     @Override
@@ -45,12 +62,10 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
             obj_pintable.setH(arg0.getY());
             obj_pintable.repaint();
         } else {
-            obj_pintable.setX(arg0.getX());
-            obj_pintable.setY(arg0.getY());
+            obj_pintable.setX(250);
+            obj_pintable.setY(270);
         }
         obj_pintable.setClicked();
-        
-        
     }
 
     @Override
@@ -82,7 +97,7 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
         if(!obj_pintable.isClicked()) {
             obj_pintable.setX(arg0.getX());
             obj_pintable.setY(arg0.getY());
-            
+            collisionChek();
             obj_pintable.repaint();
         }
         
@@ -101,23 +116,8 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
             switch(arg0.getKeyChar()) {
                 case 'd':
                 case 'D':
-                    obj_pintable.setX(obj_pintable.getX() + 1);
-
-                    break;
-                case 'a':
-                case 'A':
-                    obj_pintable.setX(obj_pintable.getX() - 1);
-                    break;
-                case 'w':
-                case 'W':
-                    obj_pintable.setY(obj_pintable.getY() - 1);
-
-                    break;
-                case 's':
-                case 'S':
-                    obj_pintable.setY(obj_pintable.getY() + 1);
-                    break;
-
+                    obj_pintable.setX(250);
+                    obj_pintable.setY(270);
             }
             obj_pintable.repaint();
         }
@@ -134,5 +134,4 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
         // TODO Auto-generated method stub
         System.out.println("Tecleada: " + arg0.getKeyChar());
     }
-    
 }
