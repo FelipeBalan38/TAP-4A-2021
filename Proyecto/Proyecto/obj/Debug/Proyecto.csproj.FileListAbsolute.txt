@@ -1,0 +1,87 @@
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\arregloSonic.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\claeFondo.gif
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\no se xd.mp3
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\nosexd.wav
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\SonocSprites.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\Son.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\reprobado.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\10_grandote.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\5 grandote.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\5_grandote.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\perdido.wav
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\Autobus.gif
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\playx2.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\Menu.wav
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\replay.png
+C:\Users\Jonatan\source\repos\Proyecto\bin\Debug\Recursos\AmimirConMamaCOCO.gif
+C:\Users\Jonatan\source\repos\Proyecto\obj\Debug\Proyecto.NombrePlayer.resources
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\10_grandote.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\5 grandote.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\5_grandote.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\AmimirConMamaCOCO.gif
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\arregloSonic.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\Autobus.gif
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\claeFondo.gif
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\Menu.wav
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\no se xd.mp3
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\nosexd.wav
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\perdido.wav
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\playx2.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\replay.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\reprobado.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\Son.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\SonocSprites.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.NombrePlayer.resources
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Jonatan\Desktop\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\Sanic.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\Logo.png
+C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Recursos\Logos.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\10_grandote.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\5 grandote.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\5_grandote.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\AmimirConMamaCOCO.gif
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\arregloSonic.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\Autobus.gif
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\claeFondo.gif
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\Logo.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\Logos.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\Menu.wav
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\no se xd.mp3
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\nosexd.wav
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\perdido.wav
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\playx2.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\replay.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\reprobado.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\Sanic.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\Son.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Recursos\SonocSprites.png
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Proyecto.exe.config
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Proyecto.exe
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\bin\Debug\Proyecto.pdb
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.Form1.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.NombrePlayer.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.exe
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Nose\Proyecto\obj\Debug\Proyecto.pdb
