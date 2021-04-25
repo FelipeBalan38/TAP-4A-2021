@@ -33,8 +33,11 @@ namespace Práctica2
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.areaTrabajo)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // areaTrabajo
@@ -46,16 +49,18 @@ namespace Práctica2
             this.areaTrabajo.TabIndex = 0;
             this.areaTrabajo.TabStop = false;
             this.areaTrabajo.Paint += new System.Windows.Forms.PaintEventHandler(this.areaTrabajo_Paint);
+            this.areaTrabajo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.areaTrabajo_MouseMove);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(211, 25);
+            this.panel1.Location = new System.Drawing.Point(135, 25);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(110, 92);
             this.panel1.TabIndex = 1;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
@@ -67,10 +72,11 @@ namespace Práctica2
             this.label1.Size = new System.Drawing.Size(94, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Fig, pos 1 (D)";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(277, 331);
+            this.panel2.Location = new System.Drawing.Point(395, 312);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(70, 70);
             this.panel2.TabIndex = 2;
@@ -78,11 +84,34 @@ namespace Práctica2
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseCaptureChanged += new System.EventHandler(this.panel2_MouseCaptureChanged);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(263, 25);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(110, 92);
+            this.panel3.TabIndex = 3;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(-2, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 17);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mover objeto(A)";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(574, 516);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.areaTrabajo);
@@ -91,6 +120,8 @@ namespace Práctica2
             ((System.ComponentModel.ISupportInitialize)(this.areaTrabajo)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -101,6 +132,8 @@ namespace Práctica2
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
     }
 }
 
