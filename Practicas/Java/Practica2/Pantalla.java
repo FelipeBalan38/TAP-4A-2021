@@ -10,6 +10,7 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
      */
     private static final long serialVersionUID = 1L;
     private Contenedor obj_pintable;
+    int maxX, maxY, minX, minY;
 
     public Pantalla() {
         initComponents();
@@ -36,21 +37,29 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
     }
     private void collisionChek()
     {
-        if(obj_pintable.getX() <= 10)
-        {
-            obj_pintable.setX(10);
+        if(obj_pintable.getX() <= 130 && obj_pintable.getY() <= 320){
+            maxX=130;
+            maxY=320;
         }
-        if(obj_pintable.getX() >= 130)
+        if(obj_pintable.getX() >= maxX)
         {
-            obj_pintable.setX(130);
+            obj_pintable.setX(maxX);
         }
-        if(obj_pintable.getY() <= 100)
+        if(obj_pintable.getY() >= maxY)
         {
-            obj_pintable.setY(100);
+            obj_pintable.setY(maxY);
         }
-        if(obj_pintable.getY() >= 320)
+        if(obj_pintable.getX() >= 10 && obj_pintable.getY() >= 100){
+            minX=10;
+            minY=100;
+        }
+        if(obj_pintable.getX() <= minX)
         {
-            obj_pintable.setY(320);
+            obj_pintable.setX(minX);
+        }
+        if(obj_pintable.getY() <= minY)
+        {
+            obj_pintable.setY(minY);
         }
     }
 
