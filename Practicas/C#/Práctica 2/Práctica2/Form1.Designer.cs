@@ -117,6 +117,7 @@ namespace Práctica2
             this.Controls.Add(this.areaTrabajo);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.areaTrabajo)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

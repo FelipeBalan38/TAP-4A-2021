@@ -122,6 +122,26 @@ namespace Práctica2
             mover = true;
         }
 
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Console.WriteLine(e.KeyChar.ToString());
+            if (e.KeyChar == 'a' || e.KeyChar == 'A')
+            {
+                mover = true;
+            }
+            if (e.KeyChar == 'd' || e.KeyChar == 'D')
+            {
+                x = 296;
+                y = 254;
+                panel2.Location = new System.Drawing.Point(x, y);
+                mover = false;
+                Xder = 574;
+                Yabj = 520;
+                max = false;
+                mini = false;
+            }
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
             x = 296;
