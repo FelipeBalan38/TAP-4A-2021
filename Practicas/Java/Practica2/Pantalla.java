@@ -14,6 +14,8 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
 
     public Pantalla() {
         initComponents();
+        maxX=maxY=400;
+        minX=minY=0;
     }
 
     public void initComponents() {
@@ -73,6 +75,8 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
         } else {
             obj_pintable.setX(250);
             obj_pintable.setY(270);
+            maxX=maxY=400;
+            minX=minY=0;
         }
         obj_pintable.setClicked();
     }
@@ -127,6 +131,8 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
                 case 'D':
                     obj_pintable.setX(250);
                     obj_pintable.setY(270);
+                    maxX=maxY=400;
+                    minX=minY=0;
             }
             obj_pintable.repaint();
         }
