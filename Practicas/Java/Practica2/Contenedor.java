@@ -1,24 +1,24 @@
 package Practicas.Java.Practica2;
 
 import java.awt.*;
-
+//Canvas que permite el dibujo de figuras.
 public class Contenedor extends Canvas{
     /**
      *
      */
     private static final long serialVersionUID = 1L;
-    private int x, y;
+    private int x, y;//Servirán para poder arrstrar el objeto.
     private int w, h;
     private boolean isClicked;
 
     public Contenedor() {
-        x = 250;
+        x = 250;//Datos donde se dibuja el objeto arrastrable.
         y = 270;
         w = 300;
         h = 220;
         isClicked = false;
     }
-
+    //Método para pintar las figuras.
     public void paint(Graphics g) {
         //Cuadrado
         g.setColor(Color.RED);
@@ -43,7 +43,7 @@ public class Contenedor extends Canvas{
         //Texto
         g.drawString("Figura arrastrable\n"+"\na estado original(D)",170,20);
     }
-
+    //Métodos para definir y retornar la posición del objeto arrastrable.
     public int getX() {
         return x;
     }
@@ -75,7 +75,7 @@ public class Contenedor extends Canvas{
     public void setH(int h) {
         this.h = h;
     }
-
+    //Determina la el click sobre la figura.
     public boolean isClicked() {
         return isClicked;
     }

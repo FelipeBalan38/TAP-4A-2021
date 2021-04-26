@@ -2,22 +2,22 @@ package Practicas.Java.Practica2;
 
 import java.awt.Frame;
 import java.awt.event.*;
-
+//Creación de la parte visual.
 public class Pantalla extends Frame implements MouseListener, MouseMotionListener, KeyListener{
     
     /**
      *
      */
     private static final long serialVersionUID = 1L;
-    private Contenedor obj_pintable;
-    int maxX, maxY, minX, minY;
-
+    private Contenedor obj_pintable;//Objeto de la clase contenedor.
+    int maxX, maxY, minX, minY;//Bordes del contendor.
+    
     public Pantalla() {
         initComponents();
-        maxX=maxY=400;
+        maxX=maxY=400;//Se inicia con las medidas totales de la ventana.
         minX=minY=0;
     }
-
+    //Inicialización de los componentes.
     public void initComponents() {
         this.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
@@ -35,14 +35,14 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
     }
 
     public static void main(String args[]) {
-        Pantalla p = new Pantalla();
+        Pantalla p = new Pantalla();//Main.
     }
     private void collisionChek()
-    {
+    {//Si el objeto entra al area del contendor, asigna como maximo las medidas de este.
         if(obj_pintable.getX() <= 130 && obj_pintable.getY() <= 320){
             maxX=130;
             maxY=320;
-        }
+        }//Hace que el objeto no pueda pasar por el maximo.
         if(obj_pintable.getX() >= maxX)
         {
             obj_pintable.setX(maxX);
@@ -50,11 +50,11 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
         if(obj_pintable.getY() >= maxY)
         {
             obj_pintable.setY(maxY);
-        }
+        }//Realiza lo mismo pero con los mínimos.
         if(obj_pintable.getX() >= 10 && obj_pintable.getY() >= 100){
             minX=10;
             minY=100;
-        }
+        }//Hace que el objeto no pueda salir del área.
         if(obj_pintable.getX() <= minX)
         {
             obj_pintable.setX(minX);
@@ -64,8 +64,8 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
             obj_pintable.setY(minY);
         }
     }
-
-    @Override
+    //Si se hace clic sobre el botón, manda al objeto arrastrable a su pos original.
+    @Override//Y hace que los maximos y minimos sean de toda la ventana.
     public void mouseClicked(MouseEvent arg0) {
         System.out.println("Clicked");
         if (obj_pintable.isClicked()) {
@@ -104,7 +104,7 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
         // TODO Auto-generated method stub
         System.out.println("Liberado");
     }
-
+    //Método para arrastrar el objeto.
     @Override
     public void mouseDragged(MouseEvent arg0) {
         if(!obj_pintable.isClicked()) {
@@ -120,7 +120,7 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
     public void mouseMoved(MouseEvent arg0) {
         System.out.println("Mover");
     }
-
+    //Si presiona la letra "d" del teclado hace lo mismo que el botón.
     @Override
     public void keyPressed(KeyEvent arg0) {
         // TODO Auto-generated method stub
@@ -133,7 +133,7 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
                     obj_pintable.setY(270);
                     maxX=maxY=400;
                     minX=minY=0;
-            }
+            }//Manda al objeto a su posición original y pone max y min toda la ventana.
             obj_pintable.repaint();
         }
     }
