@@ -35,7 +35,7 @@ public class VistaDEweb extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("Buscar Pagina");
+        jButton1.setText("Limpiar Texto");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -124,16 +124,7 @@ public class VistaDEweb extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if(java.awt.Desktop.isDesktopSupported()){
-            java.awt.Desktop desktop = java.awt.Desktop.getDesktop();
-            
-            if(desktop.isSupported(java.awt.Desktop.Action.BROWSE)){
-                try{
-                    java.net.URI uri = new java.net.URI ("https://www.itescam.edu.mx");
-                    desktop.browse(uri);
-                }catch(URISyntaxException | IOException ex){}
-                }
-            }
+        jTextArea1.setText("");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed

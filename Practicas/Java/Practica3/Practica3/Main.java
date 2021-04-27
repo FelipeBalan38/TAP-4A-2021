@@ -4,7 +4,7 @@ import Practicas.Java.Practica3.WEB.VistaDEweb;
 
 
 
-public class Main {//clase de llamado Main
+public class Main {//Ejecución
     public static void main (String []args){
     VistaDEweb vwj = new VistaDEweb();
     vwj.setVisible(true);
