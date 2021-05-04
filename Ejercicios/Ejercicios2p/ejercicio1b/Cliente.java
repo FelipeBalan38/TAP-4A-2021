@@ -1,4 +1,4 @@
-package Ejercicios.Ejercic2p;
+package Ejercicios.Ejercicios2p.ejercicio1b;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,8 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class Cliente 
-{
+public class Cliente {
     Socket socket;
     BufferedReader in;
     PrintWriter out;
