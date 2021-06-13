@@ -2,5 +2,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "d:\\980016451\\Descargas\\Practica3\\jsoup-1.13.1.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Ejercicios/Ejercicios2p/json"
     ]
 }
