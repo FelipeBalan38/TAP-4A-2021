@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicios2p.json;
+package Ejercicios2p.json;
 
 import javax.swing.JComboBox;
 import javax.swing.JFrame;

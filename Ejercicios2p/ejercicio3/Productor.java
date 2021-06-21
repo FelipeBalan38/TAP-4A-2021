@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicios2p.ejercicio3;
+package Ejercicios2p.ejercicio3;
 
 public class Productor extends Thread {
 

@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicios2p.json;
+package Ejercicios2p.json;
 
 public class Country {
     private String name_en;
