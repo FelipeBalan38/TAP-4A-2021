@@ -1,0 +1,86 @@
+﻿'Proyecto.exe' (CLR v4.0.30319: DefaultDomain): 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: DefaultDomain): 'C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Proyecto.exe' cargado. Símbolos cargados.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Firebase.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll' cargado. El módulo se compiló sin símbolos.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Users\Jonatan\Desktop\Proyecto\bin\Debug\Newtonsoft.Json.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.resources\v4.0_4.0.0.0_es_b77a5c561934e089\System.resources.dll' cargado. El módulo se compiló sin símbolos.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll' cargado. El módulo se compiló sin símbolos.
+Mono: 1
+fy: 0
+d
+moviendose
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+'Proyecto.exe' (CLR v4.0.30319: Proyecto.exe): 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll' cargado. Se omitió la carga de símbolos. El módulo está optimizado y la opción del depurador 'Sólo mi código' está habilitada.
+Mono: 2
+fy: 0
+d
+moviendose
+Mono: 0
+fy: 250
+Mono: 1
+fy: 250
+Mono: 2
+fy: 250
+Mono: 0
+fy: 250
+Mono: 1
+fy: 250
+Mono: 2
+fy: 250
+Mono: 0
+fy: 250
+Mono: 1
+fy: 250
+d
+moviendose
+Mono: 2
+fy: 250
+d
+moviendose
+d
+moviendose
+Mono: 0
+fy: 250
+d
+moviendose
+d
+moviendose
+Mono: 1
+fy: 250
+d
+moviendose
+d
+moviendose
+Mono: 2
+fy: 250
+d
+moviendose
+d
+moviendose
+Mono: 0
+fy: 250
+d
+moviendose
+d
+moviendose
+Mono: 1
+fy: 250
+d
+moviendose
+Mono: 2
+fy: 250
+d
+moviendose
+Mono: 0
+fy: 250
+Mono: 1
+fy: 0
+El programa '[12152] Proyecto.exe' terminó con código 0 (0x0).
